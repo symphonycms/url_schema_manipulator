@@ -1,0 +1,19 @@
+URL Schema Manipulator
+------------------------------------
+
+Version: 0.1
+Author: Alistair Kearney (alistair@symphony-cms.com)
+Build Date: 4th Sept 2009
+Requirements: Symphony 2.0.7
+
+Provides a mechanism for changing URL params on the fly, before a page is rendered.
+
+Note: Doesn't really do anything yet!
+
+[INSTALLATION]
+
+** Note: The latest version can alway be grabbed with "git clone git://github.com/symphony/url_schema_manipulator.git"
+
+1. Upload the 'url_schema_manipulator' folder in this archive to your Symphony 'extensions' folder.
+
+2. Enable it by selecting the "URL Schema Manipulator", choose Enable from the with-selected menu, then click Apply.
