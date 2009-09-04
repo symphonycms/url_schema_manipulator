@@ -23,8 +23,13 @@
 		}
 
 		public function cbManipulateURLSchema($context=NULL){
-			if(isset($context['env']['url']['category']) && strtolower($context['env']['url']['category']) == 'all'){
-				$context['env']['url']['category'] = NULL;
+			
+			$params_to_check = array('category', 'tag', 'country');
+			
+			foreach($params_to_check as $p){
+				if(isset($context['env']['url'][$p]) && strtolower($context['env']['url'][$p]) == 'all'){
+					$context['env']['url'][$p] = NULL;
+				}
 			}
 			
 			return;
