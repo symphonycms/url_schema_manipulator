@@ -1,0 +1,10 @@
+select.inline{
+	display: inline;
+	width: 120px;
+}
+label.inline-duplicator{
+	width: 100%;
+}
+label.inline-duplicator input{
+	width: 18%;
+}
